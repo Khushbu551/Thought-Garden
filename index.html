@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thought Garden</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Starting Screen -->
+
+    <header id="start-screen">
+      <h1>Welcome to Thought Garden</h1>
+      <p>Reflect and Grow Your Mind</p>
+      <button id="start-button">Start Garden</button>
+    </header>
+
+    <!-- Main Game Screen -->
+
+    <main id="game-screen" style="display: none">
+      <!-- Thoght Input Section -->
+
+      <section id="thoght-section">
+        <label for="thoght-input">Thought:</label>
+        <input
+          type="text"
+          id="thoght-input"
+          placeholder="Write Your Thoght Here"
+        />
+        <label for="thoght-type">Type:</label>
+        <select id="thoght-type">
+          <option value="" disabled selected>Choose Type</option>
+          <option value="Logical">Logical</option>
+          <option value="Emotional">Emotional</option>
+          <option value="Sensory">Sensory</option>
+          <option value="Memory">Memory</option>
+        </select>
+
+        <button id="add-thought">Add Thoght</button>
+      </section>
+
+      <!-- Progress Bar -->
+
+      <section id="progress-container">
+        <div id="progress-bar"></div>
+      </section>
+      <p id="progress-text">0/5 Thoughts</p>
+
+      <!-- Garden Area -->
+
+      <section id="garden">
+        <!-- Plants will appear here -->
+      </section>
+
+      <button id="show-result" style="display: none; margin-top: 20px">
+        Show Result
+      </button>
+
+      <!-- Result Area -->
+
+      <div id="result">
+        <!-- result messege -->
+      </div>
+
+      <!-- Play-again & go-back button -->
+
+      <div id="result-buttons" style="display: none; margin-top: 20px">
+        <button id="play-again">Play Again</button>
+        <button id="go-back">Go-Back</button>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>

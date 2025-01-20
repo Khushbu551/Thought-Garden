@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+  background: url(images/bg.jpg) center center;
+  background-size: cover;
+}
+
+/* Starting Screen */
+
+header#start-screen {
+  text-align: center;
+  padding: 80px;
+  background-color: #44d14bb0;
+  color: white;
+}
+
+header#start-screen h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header#start-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header#start-screen button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3d7c02;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+heade#start-screen button:hover {
+  background-color: #055502;
+}
+
+/* Main Screen Styling */
+main#game-screen {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Thought Input Section */
+section#thoght-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+section#thoght-section label {
+  flex: 1;
+  text-align: right;
+  margin-right: 5px;
+}
+
+section#thoght-section input,
+section#thoght-section select,
+section#thoght-section button {
+  flex: 2;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+}
+
+#thoght-section button {
+  margin-left: 10px;
+}
+
+/* Progress Bar Styling */
+section#progress-container {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
+#progress-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Garden Area Styling */
+section#garden {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid #32cd32;
+  border-radius: 10px;
+  background: url(images/zen-garden-.avif) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #4caf50;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  border: 1px solid #4caf50;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: white;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3 ease;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

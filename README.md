@@ -25,6 +25,8 @@
 5. **Track progress** using the progress bar.
 6. **After 5 thoughts**, click **"Show Result"** to see your dominant thought type.
 
+**Note:** THis project was built for learning purposes to explore and practice [mention technologies]. Security and production-level optimizations are not the primary focus.
+
 ## Preview
 
 ![ Weather App](/images/pic.png)
